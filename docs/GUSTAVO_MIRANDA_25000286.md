@@ -71,8 +71,10 @@ RNF04 — Interface simples e fácil de usar
 
 ## 5. Casos de Uso
 
-- UC01 — Login  
+- UC01 — Login
+  
 <img width="369" height="282" alt="image" src="https://github.com/user-attachments/assets/e83a437c-532b-4323-a979-2bcfd55715af" />
+
 - UC02 — Consultar Produto 
 <img width="392" height="297" alt="image" src="https://github.com/user-attachments/assets/7011f6d0-06b3-424c-bae0-d0d9209a575b" />
 - UC03 — Identificar Cliente
