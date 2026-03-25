@@ -80,7 +80,10 @@ RNF04 — Interface simples e fácil de usar
 - UC07 — Venda a Prazo  
 - UC08 — Atualizar Estoque  
 - UC09 — Emitir Comprovante  
-- UC10 — Gerar Conta a Receber  
+- UC10 — Gerar Conta a Receber
+
+  <img width="680" height="485" alt="image" src="https://github.com/user-attachments/assets/5459c643-1b3b-4735-a8c4-dbebce69ffa5" />
+
 
 ---
 
