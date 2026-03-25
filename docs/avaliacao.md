@@ -1,9 +1,9 @@
 # Avaliação — Engenharia de Software
 **Sistema Integrado de Gestão de Farmácia — MVP Definido pelo Estudante**
 
-Aluno: *Preencha aqui*  
-RA: *Preencha aqui*  
-Data: *Preencha aqui*  
+Aluno: Gustavo Miranda Rodrigues 
+RA: 25000286  
+Data: 25/03/2026 
 
 ---
 
