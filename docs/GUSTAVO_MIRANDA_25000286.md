@@ -76,21 +76,37 @@ RNF04 — Interface simples e fácil de usar
 <img width="369" height="282" alt="image" src="https://github.com/user-attachments/assets/e83a437c-532b-4323-a979-2bcfd55715af" />
 
 - UC02 — Consultar Produto 
+
 <img width="392" height="297" alt="image" src="https://github.com/user-attachments/assets/7011f6d0-06b3-424c-bae0-d0d9209a575b" />
+
 - UC03 — Identificar Cliente
+
 <img width="380" height="282" alt="image" src="https://github.com/user-attachments/assets/882dc1d3-d594-4ea2-9998-b82632ce1ea5" />
+
 - UC04 — Cadastrar Cliente
+
 <img width="398" height="337" alt="image" src="https://github.com/user-attachments/assets/9980e057-45eb-4959-a01f-301f8dd40fdd" />
+
 - UC05 — Registrar Venda
+
 <img width="490" height="929" alt="image" src="https://github.com/user-attachments/assets/cf5960a6-ba41-4644-8154-1062c5216243" />
+
 - UC06 — Validar Receita
+
 <img width="251" height="282" alt="image" src="https://github.com/user-attachments/assets/afe5e95c-c2ae-419c-8c45-2192c15b8edc" />
+
 - UC07 — Venda a Prazo
+
 <img width="352" height="392" alt="image" src="https://github.com/user-attachments/assets/37458342-2b73-4ea2-b2ff-aaf1eebbc24f" />
+
 - UC08 — Atualizar Estoque
+
   <img width="245" height="451" alt="image" src="https://github.com/user-attachments/assets/45b09eee-d249-4579-8454-9591960326c6" />
+
 - UC09 — Emitir Comprovante
+
   <img width="212" height="248" alt="image" src="https://github.com/user-attachments/assets/1c56f756-9d97-40b8-8007-7a1aaf7e4126" />
+
 - UC10 — Gerar Conta a Receber
   <img width="223" height="358" alt="image" src="https://github.com/user-attachments/assets/19c85ac3-f959-4a86-8988-c723427d9d4b" />
 
