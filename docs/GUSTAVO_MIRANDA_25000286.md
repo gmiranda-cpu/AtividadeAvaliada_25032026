@@ -3,7 +3,7 @@
 
 **Aluno:** Gustavo Miranda Rodrigues  
 **RA:** 25000286  
-**Data:** 25/03/2026  
+**Data:** 25/03/2026 
 
 ---
 
