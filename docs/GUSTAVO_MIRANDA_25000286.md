@@ -111,7 +111,7 @@ RNF04 — Interface simples e fácil de usar
 
   <img width="223" height="358" alt="image" src="https://github.com/user-attachments/assets/19c85ac3-f959-4a86-8988-c723427d9d4b" />
 
-- Diagrama Geral
+- UC11 — Diagrama Geral
   
   <img width="680" height="485" alt="image" src="https://github.com/user-attachments/assets/5459c643-1b3b-4735-a8c4-dbebce69ffa5" />
 
