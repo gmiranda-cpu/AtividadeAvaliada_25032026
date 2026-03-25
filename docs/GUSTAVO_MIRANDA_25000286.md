@@ -108,6 +108,7 @@ RNF04 — Interface simples e fácil de usar
   <img width="212" height="248" alt="image" src="https://github.com/user-attachments/assets/1c56f756-9d97-40b8-8007-7a1aaf7e4126" />
 
 - UC10 — Gerar Conta a Receber
+
   <img width="223" height="358" alt="image" src="https://github.com/user-attachments/assets/19c85ac3-f959-4a86-8988-c723427d9d4b" />
 
 
