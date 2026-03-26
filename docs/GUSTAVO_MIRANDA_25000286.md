@@ -231,4 +231,4 @@ Solicita validação da receita
 
 ### Relacionamentos
 Include: Identificar Cliente, Consultar Produto  
-Extend: Validar Receita, Venda a Prazo  
+Extend: Validar Receita, Venda a Prazo 
