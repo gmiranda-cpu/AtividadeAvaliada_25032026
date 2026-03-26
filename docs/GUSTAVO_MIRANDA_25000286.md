@@ -34,15 +34,25 @@ Essa funcionalidade permite localizar o cliente no sistema antes de realizar a v
   Essa funcionalidade permite criar um registro financeiro quando a venda é a prazo, controlando valores e vencimentos.
 
 ### O que está fora do MVP
+
 - Cadastro de fornecedores
+
 Essa funcionalidade ficou fora do MVP porque não é essencial para o processo de venda inicial. O foco foi no atendimento ao cliente, então o cadastro de fornecedores pode ser implementado depois.
+
 - Registro de compras
+
 O registro de compras não foi incluído no MVP porque está mais relacionado ao setor administrativo. Como o objetivo foi focar na venda, essa parte pode ser adicionada em versões futuras.
+
 - Contas a pagar
+
 Essa funcionalidade envolve o controle financeiro interno da empresa, que não é necessário para o funcionamento básico da venda. Por isso, ficou fora do MVP.
+
 - Relatórios completos
+
 Relatórios mais detalhados e estratégicos não foram incluídos porque o MVP prioriza apenas o funcionamento básico do sistema. Esses relatórios podem ser desenvolvidos posteriormente.
+
 - Gerenciamento de usuários
+
 A parte de administrar usuários e permissões completas foi deixada de fora para simplificar o sistema inicial, já que o foco foi apenas nas funcionalidades principais de atendimento.
 
 ### Por que fiz essas escolhas
@@ -52,53 +62,91 @@ Escolhi focar no processo de venda por ser a parte mais importante do sistema, e
 
 ## 2. Regras de Negócio
 
+
 RN01 — Produtos sem estoque não podem ser vendidos  
+
 Essa regra garante que o sistema não permita vender produtos que não estão disponíveis no estoque, evitando erros e problemas com clientes.
+
 RN02 — Medicamentos controlados exigem validação de receita 
+
 Essa regra define que alguns medicamentos só podem ser vendidos com autorização do farmacêutico, garantindo o cumprimento das normas de saúde.
+
 RN03 — Venda a prazo gera conta a receber automaticamente
+
 Essa regra faz com que toda venda a prazo seja registrada no financeiro, criando automaticamente uma conta a receber para controle do pagamento.
+
 RN04 — Estoque é atualizado automaticamente após venda 
+
 Essa regra garante que, após cada venda, o estoque seja atualizado sem precisar de intervenção manual, evitando divergências.
+
 RN05 — Cliente deve estar cadastrado para compra a prazo
+
 Essa regra exige que o cliente esteja registrado no sistema para poder comprar a prazo, permitindo controle e histórico de pagamentos.
 
 ---
 
 ## 3. Requisitos Funcionais
 
+
 RF01 — Consultar produtos  
+
 Esse requisito permite que o atendente busque produtos pelo nome, código ou fabricante, facilitando o atendimento ao cliente.
+
 RF02 — Identificar cliente 
+
 Esse requisito permite localizar o cliente no sistema para vincular a compra ao seu histórico.
+
 RF03 — Cadastrar cliente  
+
 Esse requisito permite cadastrar novos clientes quando eles ainda não estão registrados no sistema.
+
 RF04 — Registrar venda  
+
 Esse requisito permite registrar a venda de produtos, sendo a principal função do sistema.
+
 RF05 — Verificar estoque  
+
 Esse requisito garante que o sistema confira se há quantidade suficiente do produto antes de realizar a venda.
+
 RF06 — Registrar venda a prazo  
+
 Esse requisito permite registrar vendas onde o pagamento será feito depois, vinculando ao cliente.
+
 RF07 — Atualizar estoque automaticamente  
+
 Esse requisito garante que o estoque seja atualizado após cada venda, sem necessidade de ação manual.
+
 RF08 — Emitir comprovante  
+
 Esse requisito permite gerar um comprovante com os dados da venda para o cliente.
+
 RF09 — Validar receita  
+
 Esse requisito permite que o farmacêutico valide receitas médicas para liberar a venda de medicamentos controlados.
+
 RF10 — Gerar conta a receber 
+
 Esse requisito permite criar registros financeiros quando a venda é feita a prazo, controlando valores e vencimentos.
 
 ---
 
 ## 4. Requisitos Não Funcionais
 
+
 RNF01 — Sistema deve ter login e controle de acesso  
+
 Esse requisito garante que apenas usuários autorizados possam acessar o sistema, com diferentes permissões de acordo com o tipo de usuário (atendente, gerente, etc.), aumentando a segurança.
+
 RNF02 — Resposta em até 3 segundos  
+
 Esse requisito define que o sistema deve ser rápido, respondendo às ações do usuário em até 3 segundos, garantindo um atendimento ágil no dia a dia.
+
 RNF03 — Garantir integridade dos dados 
+
 Esse requisito garante que as informações do sistema, como vendas e estoque, sejam armazenadas corretamente, sem erros ou perdas de dados.
+
 RNF04 — Interface simples e fácil de usar  
+
 Esse requisito define que o sistema deve ser intuitivo, facilitando o uso pelos funcionários, mesmo sem muito conhecimento técnico.
 
 ---
